@@ -23,7 +23,7 @@ class Event extends Component {
         <div className="event-container">
           <h2 className="event-title">{event.summary}</h2>
           <p className="event-location">{event.location}</p>
-          <p className="event-date">{event.dateTime}</p>
+          <p className="event-date">{event.start.dateTime}</p>
           {!showDetails && (
             <button className="details-button" onClick={this.handleShowDetails}>
               Show Details
