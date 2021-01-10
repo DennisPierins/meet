@@ -36,7 +36,7 @@ class Event extends Component {
           )}
         </div>
         {showDetails && (
-          <div className="event-details">
+          <div className="event-details" id="eventDetails">
             <p className="description">{event.description}</p>
           </div>
         )}
