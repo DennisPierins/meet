@@ -1,6 +1,23 @@
-# Getting Started with Create React App
+# meet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+meet is a serverless, progressive web application (PWA) built with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events. 
+The users can filter events by location, change the number of displayed events, view/hide event details and see event details on Google Calendar.
+
+## Technical details
+
+* Built with React
+* Built using the TDD technique
+* Uses the Google Calendar API and OAuth2 authentication flow
+* Uses serverless functions (AWS lambda)
+* Passes Lighthouse's PWA checklist
+* Works offline with the help of a service worker
+* Installable on desktop and mobile
+* Makes use of data visualization
+* Test rate >=90%
+
+## URL
+
+https://dennispierins.github.io/meet/ 
 
 ## Available Scripts
 
