@@ -4,16 +4,16 @@
   "private": true,
   "homepage": "https://DennisPierins.github.io/meet",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.2.2",
-    "@testing-library/user-event": "^12.6.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
     "atatus-spa": "^4.3.2",
     "axios": "^0.21.1",
     "nprogress": "^0.2.0",
     "react": "^16.4.0-0",
     "react-dom": "^16.4.0-0",
     "react-scripts": "4.0.1",
-    "recharts": "^2.0.3",
+    "recharts": "^2.0.9",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -44,9 +44,9 @@
   },
   "devDependencies": {
     "enzyme": "^3.11.0",
-    "enzyme-adapter-react-16": "^1.15.5",
-    "gh-pages": "^3.1.0",
-    "jest-cucumber": "^3.0.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "gh-pages": "^3.2.2",
+    "jest-cucumber": "^3.0.1",
     "puppeteer": "^5.5.0"
   }
 }
